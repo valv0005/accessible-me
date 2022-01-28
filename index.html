@@ -33,7 +33,7 @@
     <main class="main-content" role="main">
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
-      <p><a href="#">Lorem ipsum</a> dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
+      <p><a href="#" role="link">Lorem ipsum</a> dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <section class="owner" itemscope itemtype="https://schema.org/Person">
         <h2>Meet the owner</h2>
         <ul>
@@ -53,20 +53,20 @@
       <section class="contact-section">
         <h2>Contact Us</h2>
         <form action="thanks.html">
-          <label for="fullname">Full Name</label>
+          <label for="fullname" aria-labelledby="fullname">Full Name</label>
           <input type="text" id="fullname" name="fullname" placeholder="Full Name">
-          <label for="youremail">Email</label>
+          <label for="youremail" aria-labelledby="youremail">Email</label>
           <input type="text" id="youremail" name="youremail" placeholder="Email">
-          <label for="yoursubject">Subject</label>
+          <label for="yoursubject" aria-labelledby="yoursubject">Subject</label>
           <input type="text" id="yoursubject" name="yoursubject" placeholder="Subject">
           <b>Your Message</b>
           <textarea></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" role=button aria-label="button">Send</button>
         </form>
       </section>
     </main>
     <footer class="site-footer" role="contentinfo">
-      &copy; 2021 Jam Box Studios <a href="#top" aria-label="Back to top">Back to Top</a>
+      &copy; 2021 Jam Box Studios <a href="#top" aria-label="Backtotop">Back to Top</a>
     </footer>
   </div>
 </body>
